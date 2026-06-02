@@ -1,3 +1,7 @@
+#include "esp_task_wdt.h"
+
+#define WDT_TIMEOUT 5  // seconds
+
 static SemaphoreHandle_t mutex_1;
 static SemaphoreHandle_t mutex_2;
 
